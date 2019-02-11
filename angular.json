@@ -82,10 +82,18 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+              "./assets/js/jquery/jquery-2.2.4.min.js",
+              "./assets/js/bootstrap/popper.min.js",
+              "./assets/js/bootstrap/bootstrap.min.js",
+              "./assets/js/plugins/plugins.js",
+              "./assets/js/plugins/audioplayer.js",
+              "./assets/js/active.js"
+
+            ],
             "assets": [
               "src/favicon.ico",
-              "src/assets"
+              "src/assets"   
             ]
           }
         },
