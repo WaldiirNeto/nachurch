@@ -9,15 +9,9 @@ const routes: Routes = [
     {
         path: '',
         component: HomeComponent,
-        children: [
-            {
-                path: '', component: HomeComponent,
-                data: {
-                    title: 'Nova Aliança Church'
-                }
-
-            }
-        ]
+        data: {
+            title: 'Nova Aliança Church'
+        }
     }
 
 

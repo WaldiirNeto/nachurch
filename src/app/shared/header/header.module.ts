@@ -1,11 +1,14 @@
 import { NgModule } from '@angular/core';
-import { headerComponent } from './header.component';
+import { HeaderComponent } from './header.component';
 import { CommonModule } from '@angular/common';
 import { RouterModule } from '@angular/router';
+import { CountdownTimerModule } from 'ngx-countdown-timer';
+
+
 
 @NgModule({
-    declarations: [headerComponent],
-    imports: [CommonModule, RouterModule],
-    exports: [headerComponent]
+    declarations: [HeaderComponent],
+    imports: [CommonModule, RouterModule,CountdownTimerModule ],
+    exports: [HeaderComponent]
 })
 export class headerModule { }

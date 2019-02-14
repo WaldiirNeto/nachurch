@@ -7,6 +7,9 @@ import { footerModule } from './shared/footer/footer.module';
 import { notFoundModule } from './errors/not-found/not-found.module';
 import { AppRoutingModule } from './app.routing.module';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent
@@ -17,6 +20,7 @@ import { AppRoutingModule } from './app.routing.module';
     footerModule,
     notFoundModule,
     AppRoutingModule
+    
   ],
   providers: [],
   bootstrap: [AppComponent]

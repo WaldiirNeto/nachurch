@@ -25,7 +25,8 @@
             "styles": [
               "src/styles.css"
             ],
-            "scripts": [],
+            "scripts": [
+            ],
             "es5BrowserSupport": true
           },
           "configurations": {
@@ -83,13 +84,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "./assets/js/jquery/jquery-2.2.4.min.js",
-              "./assets/js/bootstrap/popper.min.js",
-              "./assets/js/bootstrap/bootstrap.min.js",
-              "./assets/js/plugins/plugins.js",
-              "./assets/js/plugins/audioplayer.js",
-              "./assets/js/active.js"
-
+                "../node_modules/jquery/dist/jquery.min.js"
             ],
             "assets": [
               "src/favicon.ico",
