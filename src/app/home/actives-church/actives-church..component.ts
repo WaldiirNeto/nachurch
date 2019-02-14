@@ -5,4 +5,7 @@ import { Component } from '@angular/core';
     templateUrl : './actives-church.component.html'
 })
 
-export class ActivesChurchComponent {}
+export class ActivesChurchComponent {
+
+    
+}
