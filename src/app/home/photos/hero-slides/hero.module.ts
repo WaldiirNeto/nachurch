@@ -1,13 +1,13 @@
 import { NgModule } from '@angular/core';
 import { HeroComponent } from './hero.component';
 import { CommonModule } from '@angular/common';
-import { NgxHmCarouselModule } from 'ngx-hm-carousel';
+import {OwlModule} from '../../../../../node_modules/ngx-owl-carousel';
 
 
 @NgModule({
-   
+ 
     declarations: [HeroComponent],
-    imports: [CommonModule, NgxHmCarouselModule],
+    imports: [CommonModule, OwlModule],
     exports: [HeroComponent]
 })
 export class HeroModule {}

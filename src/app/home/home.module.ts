@@ -7,9 +7,11 @@ import { AboutAreaModule } from './about-area/about-area.module';
 import { ActivesChurchModule } from './actives-church/actives-church.module';
 import { CtaAreaModule } from './cta-area/cta-area.module';
 import { HeroModule } from './photos/hero-slides/hero.module';
+import { DonatesModule } from './donates/donates.module';
+
 
 @NgModule({
     declarations: [HomeComponent],
-    imports: [CommonModule, HomeRoutingModule, HeroModule, CtaAreaModule, AboutAreaModule, ActivesChurchModule]
+    imports: [CommonModule, HomeRoutingModule, HeroModule, CtaAreaModule, AboutAreaModule, ActivesChurchModule, DonatesModule]
 })
 export class HomeModule { }
