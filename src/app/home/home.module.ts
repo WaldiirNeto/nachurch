@@ -8,10 +8,18 @@ import { ActivesChurchModule } from './actives-church/actives-church.module';
 import { CtaAreaModule } from './cta-area/cta-area.module';
 import { HeroModule } from './photos/hero-slides/hero.module';
 import { DonatesModule } from './donates/donates.module';
+import { LatestNewsModule } from './latest-news/latest-news.module';
 
 
 @NgModule({
     declarations: [HomeComponent],
-    imports: [CommonModule, HomeRoutingModule, HeroModule, CtaAreaModule, AboutAreaModule, ActivesChurchModule, DonatesModule]
+    imports: [CommonModule,
+        HomeRoutingModule,
+        HeroModule,
+        CtaAreaModule,
+        AboutAreaModule,
+        ActivesChurchModule,
+        DonatesModule,
+        LatestNewsModule]
 })
 export class HomeModule { }
