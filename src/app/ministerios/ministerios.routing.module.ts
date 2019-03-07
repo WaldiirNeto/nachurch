@@ -1,6 +1,5 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { HomeComponent } from './home.component';
 import { MinisteriosComponent } from '../ministerios/ministerios.component';
 
 
@@ -9,18 +8,20 @@ const routes: Routes = [
 
     {
         path: '',
-        component: HomeComponent,
-        
+        component: MinisteriosComponent,
         children: [
-            { 
-                path: '',
-                component: HomeComponent,
+            {
+                path: '', component: MinisteriosComponent,
+
                 data: {
-                    title: 'Nova Aliança Church'
+                    title: 'nachurch - ministérios'
                 }
-        
-            }          
+
+            }
+
+
         ]
+
                 
     }
 
@@ -33,4 +34,4 @@ const routes: Routes = [
     ],
     exports: [RouterModule]
 })
-export class HomeRoutingModule { }
+export class MinisteriosRoutingModule { }

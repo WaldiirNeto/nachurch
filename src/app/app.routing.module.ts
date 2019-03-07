@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 import { notFoundComponent } from './errors/not-found/not-found.component';
+import { MinisteriosComponent } from './ministerios/ministerios.component';
 
 
 
@@ -16,12 +17,22 @@ const routes: Routes = [
         loadChildren: './home/home.module#HomeModule'
     },
     {
+        path: 'ministerios',
+        pathMatch: 'full',
+        redirectTo: 'ministerios'
+    },
+    {
+        path: 'ministerios',
+        loadChildren: './ministerios/ministerios.module#MinisteriosModule'
+    },
+    {
         path: '**',
         component: notFoundComponent,
         data: {
             title: 'not Found'
         }
     }
+  
 
 
 ];

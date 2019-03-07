@@ -9,7 +9,7 @@ import { CtaAreaModule } from './cta-area/cta-area.module';
 import { HeroModule } from './photos/hero-slides/hero.module';
 import { DonatesModule } from './donates/donates.module';
 import { LatestNewsModule } from './latest-news/latest-news.module';
-
+import { MinisteriosModule } from '../ministerios/ministerios.module';
 
 @NgModule({
     declarations: [HomeComponent],
@@ -20,6 +20,7 @@ import { LatestNewsModule } from './latest-news/latest-news.module';
         AboutAreaModule,
         ActivesChurchModule,
         DonatesModule,
-        LatestNewsModule]
+        LatestNewsModule,
+        MinisteriosModule]
 })
 export class HomeModule { }
