@@ -16,6 +16,9 @@ export class HeaderComponent implements OnInit {
         this.router.navigate(['/ministerios']);
     }
 
+    submeterContato() {
+        this.router.navigate(['/contato']);
+    }
     ngOnInit(): void {
         
 

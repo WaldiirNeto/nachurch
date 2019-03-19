@@ -25,6 +25,16 @@ const routes: Routes = [
         path: 'ministerios',
         loadChildren: './ministerios/ministerios.module#MinisteriosModule'
     },
+
+    {
+        path: 'contato',
+        pathMatch: 'full',
+        redirectTo: 'contato'
+    },
+    {
+        path: 'contato',
+        loadChildren: './contato/contato.module#ContatoModule'
+    },
     {
         path: '**',
         component: notFoundComponent,
@@ -32,7 +42,7 @@ const routes: Routes = [
             title: 'not Found'
         }
     }
-  
+
 
 
 ];

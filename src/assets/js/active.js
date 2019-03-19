@@ -167,4 +167,4 @@
         $.preventDefault()
     });
 
-})(jQuery);
+})($);
