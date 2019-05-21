@@ -17,3 +17,7 @@ mat-toolbar[color="warn"] {
   height: 300px;
   background-color: #EEE;
 }
+.top-container {
+  padding: 30px;
+  text-align: center;
+}
