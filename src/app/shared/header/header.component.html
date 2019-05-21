@@ -1,11 +1,10 @@
-
 <!-- ##### Header Area Start ##### -->
 
 
 
-<header class="header-area"> 
+<header class="header-area">
     <!-- Top Header Area -->
-    <nav class="fixed-top"> <div class="top-header">
+    <div class="top-header">
         <div class="container h-100">
             <div class="row h-100">
                 <div class="col-12 h-100">
@@ -16,7 +15,7 @@
 
                             <div class="events-cd">
                                 <span>
-                                    
+
                                     <countdown-timer [end]="'2019-03-13 19:00:00'"></countdown-timer>
                                 </span>
                             </div>
@@ -26,54 +25,56 @@
             </div>
         </div>
     </div>
-    <!-- Navbar Area -->
-    <div class="faith-main-menu header " style="width: 1905px; position: relative; top: 0px; z-index: inherit;">
-        <div class="classy-nav-container breakpoint-off">
-            <div class="container">
-                <!-- Menu -->
-                <nav class="classy-navbar justify-content-between" id="faithNav">
-
-                    <!-- Logo -->
-                    <a class="nav-brand" [routerLink]="['']"><img src="assets/imgs/icon_sem_fundo.png" alt=""></a>
-
-                    <!-- Navbar Toggler -->
-                    <div class="classy-navbar-toggler">
-                        <span class="navbarToggler"><span></span><span></span><span></span></span>
-                    </div>
-
+    <nav class="fixed-top">
+        <!-- Navbar Area -->
+        <div class="faith-main-menu header " style="width: 1905px; position: relative; top: 0px; z-index: inherit;">
+            <div class="classy-nav-container breakpoint-off">
+                <div class="container">
                     <!-- Menu -->
-                    <div class="classy-menu">
+                    <nav class="classy-navbar justify-content-between" id="faithNav">
 
-                        <!-- Close Button -->
-                        <div class="classycloseIcon">
-                            <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
+                        <!-- Logo -->
+                        <a class="nav-brand" [routerLink]="['']"><img src="assets/imgs/nova_alianca_preta.png" alt=""
+                                width="80px"></a>
+
+                        <!-- Navbar Toggler -->
+                        <div class="classy-navbar-toggler">
+                            <span class="navbarToggler"><span></span><span></span><span></span></span>
                         </div>
 
-                        <!-- Nav Start -->
-                        <div class="classynav">
-                            <ul>
-                                <li><a [routerLink]="['']">Home</a></li>
-                                <li><a [routerLink]="['ministerios']">Ministérios</a></li>
-                                <li><a href="sermons.html">Ministrações</a></li>
-                                <li><a [routerLink]="['contato']">Contato</a></li>
-                            </ul>
+                        <!-- Menu -->
+                        <div class="classy-menu">
 
-                            <!-- Search Button -->
-                            <div class="search-btn">
-                                <i class="fa fa-search" aria-hidden="true"></i>
+                            <!-- Close Button -->
+                            <div class="classycloseIcon">
+                                <div class="cross-wrap"><span class="top"></span><span class="bottom"></span></div>
                             </div>
 
-                            <!-- Donate Button -->
-                            <div class="donate-btn">
-                                <a href="#">Enviar doações</a>
-                            </div>
+                            <!-- Nav Start -->
+                            <div class="classynav">
+                                <ul>
+                                    <li><a [routerLink]="['']">Home</a></li>
+                                    <li><a [routerLink]="['ministerios']">Ministérios</a></li>
+                                    <li><a href="sermons.html">Ministrações</a></li>
+                                    <li><a [routerLink]="['contato']">Contato</a></li>
+                                </ul>
 
+                                <!-- Search Button -->
+                                <div class="search-btn">
+                                    <i class="fa fa-search" aria-hidden="true"></i>
+                                </div>
+
+                                <!-- Donate Button -->
+                                <div class="donate-btn">
+                                    <a href="#">Enviar doações</a>
+                                </div>
+
+                            </div>
+                            <!-- Nav End -->
                         </div>
-                        <!-- Nav End -->
-                    </div>
-                </nav>
+                    </nav>
+                </div>
             </div>
         </div>
-    </div>
-</nav>
+    </nav>
 </header>
