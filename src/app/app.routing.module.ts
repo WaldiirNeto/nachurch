@@ -36,6 +36,16 @@ const routes: Routes = [
         loadChildren: './contato/contato.module#ContatoModule'
     },
     {
+        path: 'ministracoes',
+        pathMatch: 'full',
+        redirectTo: 'ministracoes'
+    },
+    {
+        path: 'ministracoes',
+        loadChildren: './ministracoes/ministracoes.module#MinistracoesModule'
+    },
+
+    {
         path: '**',
         component: notFoundComponent,
         data: {
