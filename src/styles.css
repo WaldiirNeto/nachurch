@@ -56,6 +56,10 @@ ol {
 img {
   height: auto;
   max-width: 100%; }
+  .img-louvor {
+    height: 245px;
+    width: 350px;
+}
 
 /* Spacing */
 .mt-15 {
@@ -175,14 +179,14 @@ img {
   0% {
     border-color: rgba(172, 138, 116, 0.1); }
   50% {
-    border-color: #ffbb33; }
+    border-color: #ffeb3b; }
   100% {
     border-color: rgba(172, 138, 116, 0.1); } }
 @keyframes spin {
   0% {
     border-color: rgba(172, 138, 116, 0.1); }
   50% {
-    border-color: #ffbb33; }
+    border-color: #ffeb3b; }
   100% {
     border-color: rgba(172, 138, 116, 0.1); } }
 /* Section Heading */
@@ -196,7 +200,9 @@ img {
   .section-heading h3 {
     font-size: 36px;
     margin-bottom: 10px;
-    font-weight: 500; }
+    font-weight: 500; 
+    background-color: #ffeb3b;
+  }
     @media only screen and (max-width: 767px) {
       .section-heading h3 {
         font-size: 24px; } }
@@ -207,7 +213,7 @@ img {
   .section-heading.text-left {
     text-align: left !important; }
   .section-heading.white h3 {
-    color: #ffffff; }
+    color: black; }
 
 /* Miscellaneous */
 .bg-img {
@@ -257,7 +263,7 @@ img {
   padding-right: 0;
   width: 30px;
   height: 30px;
-  background-color: #ffbb33;
+  background-color: #ffeb3b;
   line-height: 30px;
   text-align: center;
   position: absolute;
@@ -280,7 +286,7 @@ textarea:focus {
 
 /* ScrollUp */
 #scrollUp {
-  background-color: #ffbb33;
+  background-color: #ffeb3b;
   border-radius: 0;
   bottom: 60px;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.3);
@@ -305,8 +311,8 @@ textarea:focus {
   display: inline-block;
   min-width: 150px;
   height: 60px;
-  background-color: #ffbb33;
-  color: #ffffff;
+  background-color: #ffeb3b;
+  color: black;
   border: none;
   border-radius: 0;
   padding: 0 30px;
@@ -323,19 +329,19 @@ textarea:focus {
     background-color: #1b1b1b; }
   .faith-btn.active:hover, .faith-btn.active:focus {
     color: #ffffff;
-    background-color: #ffbb33; }
+    background-color: #ffeb3b; }
   .faith-btn.btn-2 {
     border: 2px solid #1b1b1b;
     color: #1b1b1b;
     background-color: transparent;
     line-height: 56px; }
     .faith-btn.btn-2:hover, .faith-btn.btn-2:focus {
-      border: 2px solid #ffbb33;
-      background-color: #ffbb33;
+      border: 2px solid #ffeb3b;
+      background-color: #ffeb3b;
       color: #ffffff; }
   .faith-btn.btn-3 {
-    border: 2px solid #ffbb33;
-    color: #ffbb33;
+    border: 2px solid #ffeb3b;
+    color: #ffeb3b;
     background-color: transparent;
     line-height: 56px; }
     .faith-btn.btn-3:hover, .faith-btn.btn-3:focus {
@@ -368,7 +374,7 @@ textarea:focus {
     z-index: 100;
     top: 0;
     right: 0;
-    background-color: #ffbb33;
+    background-color: #ffeb3b;
     color: #ffffff;
     text-align: center;
     line-height: 40px;
@@ -392,7 +398,7 @@ textarea:focus {
     .search-wrapper .search-form input {
       width: 100%;
       height: 50px;
-      background-color: #ffbb33;
+      background-color: #ffeb3b;
       border: none;
       border-radius: 30px;
       padding: 0 30px; }
@@ -400,7 +406,7 @@ textarea:focus {
       position: absolute;
       width: 80px;
       height: 50px;
-      background-color: #ffbb33;
+      background-color: #ffeb3b;
       color: #ffffff;
       top: 0;
       right: 0;
@@ -420,7 +426,7 @@ textarea:focus {
       font-size: 14px; }
       .search-wrapper .copywrite-text p a {
         font-size: 14px;
-        color: #ffbb33; }
+        color: #ffeb3b; }
   .search-wrapper.on {
     right: 0; }
 
@@ -435,7 +441,7 @@ textarea:focus {
     background-color: #1b1b1b; }
     .header-area .top-header .next-events-countdown p {
       margin-bottom: 0;
-      color: #ffbb33;
+      color: #ffeb3b;
       font-size: 14px;
       margin-right: 20px;
       font-weight: 400; }
@@ -455,13 +461,14 @@ textarea:focus {
     width: 100%;
     z-index: 100;
     height: 80px;
-    background-color: #ffffff; }
+    background-color: black; }
     .header-area .faith-main-menu .classy-nav-container {
       background-color: transparent; }
     .header-area .faith-main-menu .classy-navbar {
       height: 80px;
       padding: 0; }
       .header-area .faith-main-menu .classy-navbar .classynav ul li a {
+        color: white;
         padding: 0 15px;
         display: block;
         height: 80px;
@@ -477,8 +484,8 @@ textarea:focus {
             height: 38px;
             line-height: 38px; } }
         .header-area .faith-main-menu .classy-navbar .classynav ul li a:hover, .header-area .faith-main-menu .classy-navbar .classynav ul li a:focus {
-          color: #ffffff;
-          background-color: #ffbb33; }
+          color: black;
+          background-color: #ffeb3b; }
           .header-area .faith-main-menu .classy-navbar .classynav ul li a:hover::after, .header-area .faith-main-menu .classy-navbar .classynav ul li a:focus::after {
             color: #ffffff; }
     .header-area .faith-main-menu .classynav ul li .dropdown li a,
@@ -518,8 +525,8 @@ textarea:focus {
       padding: 0 15px;
       height: 80px;
       line-height: 80px;
-      color: #ffffff;
-      background-color: #ffbb33; }
+      color: black;
+      background-color: #ffeb3b; }
       .header-area .faith-main-menu .classynav .donate-btn a:hover {
         color: #ffffff;
         background-color: #1b1b1b; }
@@ -535,7 +542,7 @@ textarea:focus {
 
 /* :: 6.0 Welcome Area CSS */
 .hero-slides {
-  position: relative;
+  position: static;
   z-index: 1; }
   .hero-slides .single-hero-slide {
     width: 100%;
@@ -556,10 +563,10 @@ textarea:focus {
       padding: 0 15px;
       height: 35px;
       line-height: 35px;
-      background-color: #ffbb33;
+      background-color: #ffeb3b;
       display: inline-block;
-      color: #ffffff;
-      margin-bottom: 30px; }
+      color: black;
+      }
     .hero-slides .single-hero-slide .hero-slides-content h3 {
       font-weight: 500;
       font-size: 30px;
@@ -570,7 +577,8 @@ textarea:focus {
     .hero-slides .single-hero-slide .hero-slides-content h2 {
       font-size: 72px;
       font-weight: 700;
-      color: #ffffff; }
+      color: #ffffff; 
+    }
       @media only screen and (min-width: 992px) and (max-width: 1199px) {
         .hero-slides .single-hero-slide .hero-slides-content h2 {
           font-size: 48px; } }
@@ -585,14 +593,14 @@ textarea:focus {
       margin-bottom: 0; }
     .hero-slides .single-hero-slide .next-event-btn {
       width: 100%;
-      position: absolute;
+      position: static;
       z-index: 10;
       top: 50px;
       right: 0;
       height: auto; }
   .hero-slides .owl-prev,
   .hero-slides .owl-next {
-    background-color: #ffbb33;
+    background-color: #ffeb3b;
     width: 40px;
     height: 96px;
     line-height: 95px;
@@ -600,7 +608,7 @@ textarea:focus {
     top: 50%;
     margin-top: -48px;
     left: 0;
-    position: absolute;
+    position: static;
     z-index: 10;
     text-align: center;
     font-size: 26px;
@@ -610,7 +618,7 @@ textarea:focus {
     .hero-slides .owl-next:hover,
     .hero-slides .owl-next:focus {
       background-color: #1b1b1b;
-      color: #ffbb33; }
+      color: #ffeb3b; }
     @media only screen and (max-width: 767px) {
       .hero-slides .owl-prev,
       .hero-slides .owl-next {
@@ -620,7 +628,7 @@ textarea:focus {
     left: auto;
     right: 0; }
   .hero-slides .owl-dots {
-    position: absolute;
+    position: static;
     bottom: 50px;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -650,7 +658,7 @@ textarea:focus {
       font-size: 14px;
       margin: 0 2px; }
       .hero-slides .owl-dots .owl-dot.active {
-        color: #ffbb33; }
+        color: #ffeb3b; }
   @media only screen and (max-width: 767px) {
     .hero-slides:hover .owl-prev,
     .hero-slides:hover .owl-next {
@@ -678,7 +686,7 @@ textarea:focus {
   .faith-cta-area .faith-btn:hover, .faith-cta-area .faith-btn:focus {
     box-shadow: 0 5px 40px rgba(255, 255, 255, 0.2); }
   .faith-cta-area.style-2 {
-    background-color: #ffbb33; }
+    background-color: #ffeb3b; }
     .faith-cta-area.style-2 .faith-btn:hover, .faith-cta-area.style-2 .faith-btn:focus {
       box-shadow: 0 5px 40px rgba(0, 0, 0, 0.2); }
 
@@ -694,14 +702,16 @@ textarea:focus {
       margin-bottom: 15px; }
     .faith-about-area .about-content h2 {
       font-size: 36px;
+      color: white;
       margin-bottom: 30px;
       font-style: italic;
-      font-weight: 500; }
+      font-weight: 500;
+     }
       @media only screen and (max-width: 767px) {
         .faith-about-area .about-content h2 {
           font-size: 24px; } }
     .faith-about-area .about-content h6 {
-      color: #5a5a5a;
+      color:  #a6a6a6;
       font-weight: 500;
       line-height: 2;
       margin-bottom: 0; }
@@ -713,6 +723,7 @@ textarea:focus {
   .upcoming-events .headline {
     margin-bottom: 80px; }
     .upcoming-events .headline h5 {
+      color: white;
       font-size: 18px;
       margin-bottom: 0; }
 
@@ -733,7 +744,7 @@ textarea:focus {
     flex: 0 0 214px;
     max-width: 214px;
     width: 214px;
-    background-color: #ffbb33; }
+    background-color: #ffeb3b; }
     @media only screen and (max-width: 767px) {
       .single-upcoming-events .event-date-thumbnail {
         -webkit-box-flex: 0;
@@ -758,7 +769,7 @@ textarea:focus {
           max-width: 50%;
           width: 50%; } }
       .single-upcoming-events .event-date-thumbnail .event-date h6 {
-        color: #ffffff;
+        color: black;
         margin-bottom: 0;
         font-size: 14px;
         line-height: 1.7; }
@@ -784,13 +795,21 @@ textarea:focus {
       .single-upcoming-events .events-content a h6 {
         -webkit-transition-duration: 500ms;
         transition-duration: 500ms; }
-        .single-upcoming-events .events-content a h6:hover, .single-upcoming-events .events-content a h6:focus {
-          color: #ffbb33; }
+        .single-upcoming-events .events-content a .single-upcoming-events .events-content {
+          color: #ffeb3b;
+          
+         }
+
     .single-upcoming-events .events-content p {
       margin-bottom: 0;
       font-size: 13px; }
   .single-upcoming-events:hover .event-date-thumbnail, .single-upcoming-events:focus .event-date-thumbnail {
-    background-color: #1b1b1b; }
+    background-color: #1b1b1b;
+   }
+   .single-upcoming-events .event-date-thumbnail .event-date h6:hover {
+    /* background-color:  #1b1b1b;; */
+    color: white;
+   }
 
 /* :: 10.0 Latest Sermons Area CSS */
 .latest-sermons {
@@ -799,6 +818,7 @@ textarea:focus {
   .latest-sermons .headline {
     margin-bottom: 80px; }
     .latest-sermons .headline h5 {
+      color: white;
       font-size: 18px;
       margin-bottom: 0; }
 
@@ -835,12 +855,12 @@ textarea:focus {
         transition-duration: 500ms;
         font-size: 16px; }
         .single-sermons .sermons-content .sermons-text h6:hover, .single-sermons .sermons-content .sermons-text h6:focus {
-          color: #ffbb33; }
+          color: #ffeb3b; }
       .single-sermons .sermons-content .sermons-text p {
         font-size: 13px;
         margin-bottom: 0; }
         .single-sermons .sermons-content .sermons-text p:last-child {
-          color: #ffbb33; }
+          color: #ffeb3b; }
   .single-sermons .sermons-audio-player .audioplayer {
     margin: 0;
     padding: 0;
@@ -852,7 +872,7 @@ textarea:focus {
     height: auto;
     border-radius: 0; }
   .single-sermons .sermons-audio-player .audioplayer:not(.audioplayer-playing) .audioplayer-playpause a {
-    border-left: 12px solid #ffbb33; }
+    border-left: 12px solid #ffeb3b; }
   .single-sermons .sermons-audio-player .audioplayer-bar-played,
   .single-sermons .sermons-audio-player .audioplayer-volume-adjust div div {
     background: #333333; }
@@ -864,8 +884,8 @@ textarea:focus {
     .single-sermons .sermons-audio-player .see-more-btn a {
       display: inline-block;
       font-size: 11px;
-      color: #ffbb33;
-      border-bottom: 1px solid #ffbb33; }
+      color: #ffeb3b;
+      border-bottom: 1px solid #ffeb3b; }
       .single-sermons .sermons-audio-player .see-more-btn a:hover, .single-sermons .sermons-audio-player .see-more-btn a:focus {
         color: #1b1b1b;
         border-bottom: 1px solid #1b1b1b; }
@@ -889,7 +909,7 @@ textarea:focus {
       border-right: 2px solid transparent;
       border-left: 2px solid transparent; }
       .single-sermons.style-2 .sermons-content .sermons-text p.date {
-        color: #ffbb33; }
+        color: #ffeb3b; }
       .single-sermons.style-2 .sermons-content .sermons-text p:last-child {
         font-size: 14px;
         font-weight: 500;
@@ -900,9 +920,9 @@ textarea:focus {
     padding: 20px 0; }
   .single-sermons.style-2:hover .sermons-content .sermons-text, .single-sermons.style-2:focus .sermons-content .sermons-text {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.15);
-    border-bottom: 2px solid #ffbb33;
-    border-right: 2px solid #ffbb33;
-    border-left: 2px solid #ffbb33; }
+    border-bottom: 2px solid #ffeb3b;
+    border-right: 2px solid #ffeb3b;
+    border-left: 2px solid #ffeb3b; }
   .single-sermons.style-3 {
     margin-bottom: 0; }
     .single-sermons.style-3 .sermons-content {
@@ -953,7 +973,7 @@ textarea:focus {
             max-width: 100%;
             width: 100%; } }
         .single-sermons.style-3 .sermons-content .sermons-text p.date {
-          color: #ffbb33; }
+          color: black; }
         .single-sermons.style-3 .sermons-content .sermons-text p.text {
           font-size: 14px;
           font-weight: 500;
@@ -969,7 +989,7 @@ textarea:focus {
   z-index: 1; }
   .donate-slides .owl-prev,
   .donate-slides .owl-next {
-    background-color: #ffbb33;
+    background-color: #ffeb3b;
     width: 40px;
     height: 96px;
     line-height: 95px;
@@ -991,7 +1011,7 @@ textarea:focus {
     .donate-slides .owl-next:hover,
     .donate-slides .owl-next:focus {
       background-color: #1b1b1b;
-      color: #ffbb33; }
+      color: #ffeb3b; }
   .donate-slides .owl-next {
     left: auto;
     right: -20px; }
@@ -1002,7 +1022,7 @@ textarea:focus {
 .single-donate-slide {
   position: relative;
   z-index: 1;
-  border: 2px solid #ffbb33; }
+  border: 2px solid #ffeb3b; }
   .single-donate-slide::after {
     width: 100%;
     z-index: 1;
@@ -1032,7 +1052,7 @@ textarea:focus {
     width: 100%;
     z-index: 30; }
     .single-donate-slide .donate-btn .faith-btn {
-      border: 2px solid #ffbb33;
+      border: 2px solid #ffeb3b;
       line-height: 56px; }
 
 /* :: 12.0 Blog Area CSS */
@@ -1059,10 +1079,10 @@ textarea:focus {
       width: 195px;
       height: 35px;
       top: 0;
-      background-color: #ffbb33;
+      background-color: #ffeb3b;
       font-size: 14px;
       font-weight: 400;
-      color: #ffffff;
+      color: black;
       line-height: 35px;
       text-align: center;
       left: 50%;
@@ -1081,8 +1101,10 @@ textarea:focus {
       font-size: 18px;
       display: block;
       margin-bottom: 15px; }
+      .single-blog-area .blog-thumbnail .post-date a:hover {
+        color: white }
       .single-blog-area .blog-content .blog-title:hover {
-        color: #ffbb33; }
+        color: #ffeb3b; }
     .single-blog-area .blog-content p {
       font-weight: 500;
       margin-bottom: 30px; }
@@ -1090,17 +1112,17 @@ textarea:focus {
       display: inline-block;
       font-size: 14px;
       font-weight: 500;
-      color: #ffbb33;
-      border-bottom: 1px solid #ffbb33; }
+      color: blue;
+      border-bottom: 1px solid #ffeb3b; }
       .single-blog-area .blog-content .readmore-btn:hover {
         color: #1b1b1b;
         border-bottom: 1px solid #1b1b1b; }
   .single-blog-area:hover, .single-blog-area:focus {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); }
     .single-blog-area:hover .blog-content, .single-blog-area:focus .blog-content {
-      border-bottom-color: #ffbb33;
-      border-right-color: #ffbb33;
-      border-left-color: #ffbb33; }
+      border-bottom-color: #ffeb3b;
+      border-right-color: #ffeb3b;
+      border-left-color: #ffeb3b; }
 
 .pagination {
   position: relative;
@@ -1120,7 +1142,7 @@ textarea:focus {
       border: none;
       margin-right: 7px; }
       .pagination .page-item .page-link:hover, .pagination .page-item .page-link:focus {
-        background-color: #ffbb33; }
+        background-color: #ffeb3b; }
     .pagination .page-item:first-child .page-link {
       border-top-left-radius: 0;
       border-bottom-left-radius: 0; }
@@ -1136,7 +1158,7 @@ textarea:focus {
   display: block; }
   .blog-widget-area h5 {
     padding-left: 25px;
-    background-color: #ffbb33;
+    background-color: #ffeb3b;
     line-height: 35px;
     height: 35px;
     width: 100%;
@@ -1155,8 +1177,8 @@ textarea:focus {
       border-bottom: 1px solid transparent;
       line-height: 1; }
       .blog-widget-area ul li a:hover, .blog-widget-area ul li a:focus {
-        color: #ffbb33;
-        border-bottom: 1px solid #ffbb33; }
+        color: #ffeb3b;
+        border-bottom: 1px solid #ffeb3b; }
     .blog-widget-area ul li:last-child a {
       margin-bottom: 0; }
 
@@ -1177,7 +1199,7 @@ textarea:focus {
     .single-latest-blog-post .latest-blog-post-content a.post-title {
       font-size: 16px;
       font-weight: 500;
-      color: #ffbb33; }
+      color: #ffeb3b; }
       .single-latest-blog-post .latest-blog-post-content a.post-title:hover {
         color: #1b1b1b; }
     .single-latest-blog-post .latest-blog-post-content a.post-date {
@@ -1211,15 +1233,15 @@ textarea:focus {
         margin-bottom: 280px; } }
     .main-footer-area .footer-widget .footer-social-info a {
       display: inline-block;
-      color: #ffbb33;
+      color: #ffeb3b;
       margin-right: 25px;
       font-size: 15px; }
       .main-footer-area .footer-widget .footer-social-info a:hover, .main-footer-area .footer-widget .footer-social-info a:focus {
         color: #ffffff; }
   .main-footer-area .footer-widget .single-contact-area p {
     margin-bottom: 30px;
-    color: #ffbb33;
-    border-bottom: 1px solid #ffbb33;
+    color: #ffeb3b;
+    border-bottom: 1px solid #ffeb3b;
     display: inline-block; }
   .main-footer-area .footer-widget .single-contact-area span {
     color: #c9c9c9;
@@ -1233,8 +1255,8 @@ textarea:focus {
       margin-bottom: 15px;
       border-bottom: 1px solid transparent; }
       .main-footer-area .footer-widget .useful-links li a:hover, .main-footer-area .footer-widget .useful-links li a:focus {
-        color: #ffbb33;
-        border-bottom: 1px solid #ffbb33;
+        color: #ffeb3b;
+        border-bottom: 1px solid #ffeb3b;
         display: inline-block; }
   .main-footer-area .copywrite-text {
     -webkit-box-flex: 0;
@@ -1244,9 +1266,9 @@ textarea:focus {
     width: 100%; }
     .main-footer-area .copywrite-text p {
       font-size: 12px;
-      color: #ffbb33; }
+      color: #ffeb3b; }
       .main-footer-area .copywrite-text p a {
-        color: #ffbb33;
+        color: #ffeb3b;
         font-size: 12px; }
         .main-footer-area .copywrite-text p a:hover, .main-footer-area .copywrite-text p a:focus {
           color: #ffffff; }
@@ -1320,16 +1342,16 @@ textarea:focus {
   .single-ministry:hover, .single-ministry:focus {
     box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3); }
     .single-ministry:hover .ministry-content, .single-ministry:focus .ministry-content {
-      border-bottom-color: #ffbb33;
-      border-right-color: #ffbb33;
-      border-left-color: #ffbb33; }
+      border-bottom-color: #ffeb3b;
+      border-right-color: #ffeb3b;
+      border-left-color: #ffeb3b; }
 
 /* :: 16.0 Single Pastor Area CSS */
 .single-pastor-area {
   position: relative;
   z-index: 1; }
   .single-pastor-area img {
-    border-bottom: 4px solid #ffbb33; }
+    border-bottom: 4px solid #ffeb3b; }
   .single-pastor-area .pastor-content {
     text-align: center;
     padding: 30px 30px 0; }
@@ -1345,8 +1367,8 @@ textarea:focus {
       width: 100%; }
       .single-pastor-area .pastor-content .pastor-meta a {
         display: inline-block;
-        border-bottom: 1px solid #ffbb33;
-        color: #ffbb33;
+        border-bottom: 1px solid #ffeb3b;
+        color: #ffeb3b;
         font-weight: 400;
         font-size: 12px; }
         .single-pastor-area .pastor-content .pastor-meta a:hover, .single-pastor-area .pastor-content .pastor-meta a:focus {
@@ -1383,8 +1405,8 @@ textarea:focus {
   font-weight: 400; }
 .contact-information .single-contact-area p {
   margin-bottom: 30px;
-  color: #ffbb33;
-  border-bottom: 1px solid #ffbb33;
+  color: black;
+  border-bottom: 1px solid #ffeb3b;
   display: inline-block; }
 .contact-information .single-contact-area span {
   color: #5a5a5a;
@@ -1412,7 +1434,7 @@ textarea:focus {
     transition-duration: 500ms;
     background-color: #ffffff; }
     .contact-form-area .form-control:focus {
-      border-bottom: 3px solid #ffbb33;
+      border-bottom: 3px solid #ffeb3b;
       box-shadow: none; }
   .contact-form-area textarea.form-control {
     height: 200px; }
@@ -1441,7 +1463,7 @@ textarea:focus {
     font-size: 48px;
     margin-bottom: 10px;
     font-weight: 400;
-    color: #ffbb33; }
+    color: #ffeb3b; }
   .single-cool-fact h6 {
     font-size: 14px;
     color: #5a5a5a;
@@ -1463,7 +1485,7 @@ textarea:focus {
     border-radius: 0;
     background-color: #eff4f6;
     color: #1b1b1b;
-    border: 2px solid #ffbb33;
+    border: 2px solid #ffeb3b;
     display: block;
     margin: 0;
     padding: 20px 60px 20px 20px;
@@ -1529,7 +1551,7 @@ textarea:focus {
       .faith-tabs-content .nav-tabs .nav-link.active {
         background-color: transparent;
         color: #1b1b1b;
-        border: 2px solid #ffbb33; }
+        border: 2px solid #ffeb3b; }
   .faith-tabs-content .tab-content h6 {
     font-size: 18px; }
   @media only screen and (max-width: 767px) {

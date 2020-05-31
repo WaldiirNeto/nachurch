@@ -17,7 +17,6 @@ export class HeroComponent implements OnInit {
     @ViewChild('owlElement') owlElement: OwlCarousel;
 
     ngOnInit(): void {
-
     }
 
 

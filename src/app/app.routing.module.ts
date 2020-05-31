@@ -46,6 +46,16 @@ const routes: Routes = [
     },
 
     {
+        path: 'contribuicoes',
+        pathMatch: 'full',
+        redirectTo: 'contribuicoes'
+    },
+    {
+        path: 'contribuicoes',
+        loadChildren: './contribuicoes/contribuicoes.module#ContribuicoesModule'
+    },
+
+    {
         path: '**',
         component: notFoundComponent,
         data: {
@@ -57,7 +67,9 @@ const routes: Routes = [
 
 ];
 @NgModule({
-    imports: [RouterModule.forRoot(routes)],
+    imports: [RouterModule.forRoot(routes, {
+        scrollPositionRestoration: 'enabled'
+    })],
     exports: [RouterModule]
 })
 
