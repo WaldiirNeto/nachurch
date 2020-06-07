@@ -1420,6 +1420,7 @@ textarea:focus {
     margin-bottom: 50px;
     font-weight: 400; }
   .contact-form-area .form-control {
+    color: white;
     height: 52px;
     width: 100%;
     background-color: #eff4f6;
@@ -1432,9 +1433,9 @@ textarea:focus {
     padding: 15px 30px;
     -webkit-transition-duration: 500ms;
     transition-duration: 500ms;
-    background-color: #ffffff; }
+    background-color: #37474F; }
     .contact-form-area .form-control:focus {
-      border-bottom: 3px solid #ffeb3b;
+      /* border-bottom: 3px solid black; */
       box-shadow: none; }
   .contact-form-area textarea.form-control {
     height: 200px; }

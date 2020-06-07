@@ -54,7 +54,15 @@ const routes: Routes = [
         path: 'contribuicoes',
         loadChildren: './contribuicoes/contribuicoes.module#ContribuicoesModule'
     },
-
+    {
+        path: 'reservas',
+        pathMatch: 'full',
+        redirectTo: 'reservas'
+    },
+    {
+        path: 'reservas',
+        loadChildren: './reservas-culto/reservas-culto.module#ReservasCultoModule'
+    },
     {
         path: '**',
         component: notFoundComponent,
